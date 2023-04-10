@@ -1,11 +1,11 @@
-package com.tweeteroo.api.controller;
+package com.tweeteroo.api.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/health")
+@RequestMapping("/health")
 public class HealthController {
   @GetMapping
   public String appHealth() {
